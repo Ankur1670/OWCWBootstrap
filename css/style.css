@@ -1,0 +1,430 @@
+*{
+    margin:0 px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar  */
+
+.collapse ul li .nav-link:hover{
+
+   
+   border: 2px solid #dc3545;
+   border-radius: 10px;
+    
+}
+/* Main section  */
+section.main .mainContent {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.centerMid{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+section.main .mainContent h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+section.main .mainContent p{
+    font-family: 'Poppins', sans-serif;
+}
+section.main .mainContent button{
+    background-color: #dc3545;
+    color: white;
+}
+
+section.main .mainContent img{
+    padding: 10px;
+     border: 10px solid #dc3545;
+}
+
+
+/* About us section  */
+
+section.aboutus {
+    padding: 100px 0;
+    background-color:darkgray;
+}
+section.aboutus .about{
+    position: relative;
+}
+section.aboutus .about .box{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: #dc3545;
+    z-index: 0;
+}
+section.aboutus .about h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color:white;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+
+}
+section.aboutus .about p{
+    margin-top: 170px;
+
+}
+section.aboutus .about button{
+    background-color: #dc3545;
+    color: white;
+}
+/* service section  */
+section.service{
+    padding: 100px 0px;
+}
+
+section.service .servicetitle{
+    text-align: center;
+}
+section.service .servicetitle h1{
+    font-weight: 800;
+}
+section.service .servicecard .customcard {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    height: 100%;
+    max-width: 350px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+section.service .servicecard {
+    background-image: url(../images/ddg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    border-radius: 10px;
+}
+section.service .servicecard .customcard h3{
+    font-weight: 800;
+    color: #f7be14;
+}
+section.service .servicecard .customcard button{
+    background-color: #f7be14;
+    color: #f0f0f0;
+}
+section.service .servicecard .customcard:hover{
+    background-color: #dc3545;
+    color: #f0f0f0;
+    
+}
+section.service .servicecard .customcard button:hover{
+    background-color: #f7be14;
+
+}
+section.product {
+    background-image: url(../images/products.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+section.product h1{
+    font-weight: 800;
+    color: #dc3545;
+}
+section.product p{
+    font-weight: 400;
+    color: #f0f0f0;
+    
+}
+section.product button {
+    background-color: #f7be14;
+    color: white;
+}
+section.product button:hover {
+    background-color: #f7be14;
+    color: white;
+}
+
+/* on project  */
+section.onproject{
+    padding: 100px 0;
+}
+section.onproject .container{
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+section.onproject h1{
+    text-align: center;
+    font-weight: 800;
+    margin: 1.5rem;
+}
+section.onproject .container .entry img{
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    border: 3px solid #f0f0f0;
+}
+section.onproject .container .entry p.name{
+    font-weight: 600;
+    background-color:#dc3545;
+    color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+footer{
+    padding: 100px 0;
+    position: relative;
+    background-color: black;
+}
+footer .column h3{
+    font-weight: 700;
+    color: #f0f0f0;
+}
+footer .column ul{
+    list-style: none;
+    padding: 0px;
+}
+footer .column ul li{
+    color: #f0f0f0;
+    font-weight: 400;
+    
+}
+footer .col-auto button{
+    background-color: #dc3545;
+    color: #f0f0f0;
+}
+footer .col-auto button:hover{
+    background-color: #dc3545;
+    color: #f0f0f0;
+}
+footer .copyRight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #dc3545;
+    text-align: center;
+    color:#f0f0f0;
+    font-weight: 500;
+}
+/* ABOUT PAGE  */
+section.aboutpage{
+    padding: 100px 0px;
+}
+section.aboutpage .heading {
+    position: relative;
+}
+section.aboutpage .heading .box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#dc3545;
+    z-index: -5;
+}
+section.aboutpage .heading h1 {
+    margin: 25px 0 0 30px;
+}
+section.aboutpage  h1 {
+ font-weight: 800;
+}
+section.aboutpage .heading p {
+    margin-top: 80px;
+}
+section.aboutpage h1 {
+    font-weight: 800;
+}
+section.aboutpage .mission {
+    position: relative;
+}
+section.aboutpage .mission img {
+    margin: 100px 0;
+}
+section.aboutpage .mission img {
+    padding: 10px;
+    border: 10px solid #dc3545;
+}
+section.aboutpage .coreValues h1 {
+    margin-bottom: 50px;
+}
+section.aboutpage h1 {
+    font-weight: 800;
+}
+section.aboutpage .corevalue .customcard {
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+section.aboutpage .corevalue .customcard h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+section.aboutpage .corevalue .c1:hover{
+    background-color: #dc3545;
+    color: #f0f0f0;
+}
+section.aboutpage .corevalue .c2:hover{
+    background-color: black;
+    color: white;
+}
+section.aboutpage .corevalue .c3:hover{
+    background-color: #f7be14;
+    color:white;
+}
+section.services {
+    padding: 100px 0;
+}
+section.services .heading {
+    position: relative;
+}
+section.services .heading .box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#dc3545;
+    z-index: -5;
+}
+section.services .heading h1 {
+    margin: 25px 0 0 30px;
+}
+section.services h1 {
+    font-weight: 800;
+}
+section.services .card .row{
+    border: 0px;
+}
+section.services .card {
+    margin-top: 50px;
+}
+section.services .card .customcard {
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+section.services .card .customcard h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+section.services .installation .textCOl h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+section.services .installation .imgCol img {
+    background-color: #dc3545;
+    padding: 15px;
+}
+section.products {
+    padding: 100px 0;
+}
+section.products .heading {
+    position: relative;
+}
+section.products .heading .box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #dc3545;
+    z-index: -5;
+}
+section.products .heading h1 {
+    margin: 25px 0 0 30px;
+}
+section.products h1 {
+    font-weight: 800;
+}
+section.products h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+section.products h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+section.products h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+section.products .fire img{
+    border: 10px solid #dc3545;
+    padding: 10px;
+}
+section.products .moreproduct .customCard  {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100%;
+}
+section.client {
+    padding: 100px 0;
+}
+section.client h1 {
+    text-align: center;
+    margin: 1.5em;
+    font-weight: 800;
+}
+section.client .item {
+    background-color: #dc3545;
+    color: #f0f0f0;
+    border-radius: 10px;
+}
+section.client .item .name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+section.contact {
+    padding: 100px 0;
+    background-image: url(/images/products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+section.contact .formLabel {
+    background:#dc3545;
+    background: -webkit-gradient(linear, left top, right top, from(#dc3545(255, 196, 0, 0.771043)), to(rgba(120, 166, 161, 0.698214)));
+    background: linear-gradient(90deg,#dc3545(255, 196, 0, 0.771043) 0%, rgba(120, 166, 161, 0.698214) 100%);
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    color: #f0f0f0;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 53%);
+}
+section.contact form {
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 8px;
+    background: #dc3545;
+    background: -webkit-gradient(linear, left top, right top, from(#dc3545(255, 196, 0, 0.771043)), to(rgba(120, 166, 161, 0.698214)));
+    background: linear-gradient(90deg, #dc3545(255, 196, 0, 0.771043) 0%, rgba(120, 166, 161, 0.698214) 100%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+section.contact .contactDetails {
+    color: #f7be14;
+    padding: 120px 0 0 100px;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 53%);
+}
+section.contact .contactDetails p {
+    font-size: 25px;
+}
+ection.contact .contactDetails h4 {
+    font-weight: 400;
+}
